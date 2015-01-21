@@ -1,54 +1,115 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-  <title>Gilu's Website </title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
+    <meta charset="UTF-8">
+    <title>Gilu's Resume</title>
+    <link rel="stylesheet" href="style.css">
 <body>
-	<header>
-		<h1><marquee>Gilu George</marquee></h1>
-		<ul>
-			<li><a href='#education'>Education</a></li>
-			<li><a href='#skills'>Skills</a></li>
-			<li><a href='#experience'>Experience</a></li>
-			<li><a href='#projects'>Projects</a></li>
-			<li><a href='#leadership'>Leadership</a></li>
-		</ul>
-	</header>
-  <section id="education">
-  	<h2>Education</h2>
-  	<h3>Georgia Institute of Technology</h3>
-  	<p> Spring 2014- present</p>
-  	<p>B.S. Computer Science, Information Internetworks and People</p>
+<header>
+    <div id="main-nav">
+        <h1><a href='#' class="black">Gilu George</a></h1>
+        <ul id="nav">
+            <li class="active"><a href='#education'>Education</a></li>
+            <li><a href='#experience'>Experience</a></li>
+            <li><a href='#projects'>Projects</a></li>
+            <li><a href='#extracurriculars'>Extracurriculars</a></li>
+        </ul>
+    </div>
+</header>
+<div class="wrapper">
+    <section>
+        <img src="images/gilu.jpg" class="profile">
 
-  	<h3>Georgia State University</h3>
-  	<p>Fall 2011 - Fall 2013</p>
-  	<p>B.S. Computer Science</p>
-  </section>
+        <div class="social">
+            <p>Email: <a href="mailto:ggeorge7@gatech.edu">ggeorge7@gatech.edu</a><br>Phone: 404-***-****</p>
+        </div>
+    </section>
+    <section>
+        <div class="column">
+            <h2><a class="anchor" id="education">Education</a></h2>
 
+            <h3>Georgia Institute of Technology</h3>
 
-  <section id="skills">
-  	<h2>Skills</h2>
-  </section>
-	<section id="experience">
-		<h2>Experience</h2>
-		
-	</section>
+            <p class="small">Spring 2014 - present</p>
 
-  <section id="projects">
-  	<h2>Projects</h2>
-  	<div>
-			<a href="https://github.com/gilugeorge/webdev2015.git" target="_blank">
-				<h3>Gilu's Github</h3>
-			</a>
-  	</div>
-  </section>
+            <p>Candidate for Bachelor of Science in Computer Science, Information Internetworks and People</p>
+            <p>HOPE Scholarship recipient </p>
 
-  <section id="leadership">
-  	<h2>Leadership</h2>
-  </section>
+            <h3>Georgia State University</h3>
+
+            <p class="small">Fall 2011 - Fall 2013</p>
+
+        </div>
+        <div class="column">
+            <h2>Skills</h2>
+
+            <h3>Technical</h3>
+
+            <p>JavaScript, HTML5, CSS, Java, C, SQL, Agile Development</p>
+
+            <h3>Languages</h3>
+
+            <p>English, Malayalam, Tamil, and Spanish. Able to read and write Hindi..</p>
+        </div>
+    </section>
+
+    <section>
+        <h2><a class="anchor" id="experience">Experience</a></h2>
+
+        <h3>Cashier/Electronics Merchandiser - Sears Holdings</h3>
+
+        <p class="small">August 2013 – March 2014  </p>
+
+        <p>Skilled at operating computerized cash registers, scanners and affiliated POS system. 
+Provided excellent customer service, took ownership for enhancing the customer experience. </p>
+
+        <h3>Sales Representative - Vector Marketing </h3>
+
+        <p class="small"> January 2012- March 2012</p>
+
+        <p>Communicated actively with customers by setting up appointments. Educated the customer about the product by providing clear demonstrations. Efficiently completed transactions using secure methods.</p>
+    </section>
+
+    <section>
+        <h2><a class="anchor" id="projects">Projects</a></h2>
+
+        <div class="media">
+
+            <h3>Space Trader</h3>
+            <p class="small"> Designed and implemented a classic open-source Palm Pilot game called Space Trader.</p>
+        </div>
+        <div class="media">
+            <h3>Wearable Application </h3>
+            <p>Made the user interface for an application that reminds patients to take their medications on time and saves the patient's information.
+            This information is combined and demonstrated in a tabular and graphical manner and is passed on to the doctor so that he/she can see the data in order to adjust the prescription. </p>
+        </div>
+        <div class="media">
+            <h3> Personal Android App Development </h3>
+            <p class="small"> Working on an Android web application</p>
+        </div>
+    </section>
+
+    <section>
+        <h2><a class="anchor" id="extracurriculars">Leadership</a></h2>
+
+        <h3><span class="focus">Member,</span>  GITMAD (mobile application development club), </h3>
+
+        <p>Learning and supporting the mobile application development community at GT College of Computing.</p>
+
+        <h3>Member, GT-WebDev</h3>
+
+        <p>Learning CSS, HTML, JavaScript, and advanced server-client applications across multiple platforms.</p>
+    </section>
+
+    <section></section>
+    </section>
+    <footer>
+        <p>&#169; 2015 by GT WebDev.
+
+        <p>
+
+        <div id="top"><a href="#">&#8593; back to top</a></div>
+    </footer>
+</div>
 </body>
-
-</html>
+</head>
+</html> 
